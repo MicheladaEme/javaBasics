@@ -20,6 +20,13 @@ public class RePlit {
 		      System.out.println(numbers[i]);
 		    }
 		  }
+		//067 Nested For Loops
+		for (int y=1; y<=5; y++) {
+		      for (int x=1; x<=10; x++) {
+		        System.out.print((y*x)+" ");
+		      }
+		      System.out.println();
+		    }
 		
 	}
 
