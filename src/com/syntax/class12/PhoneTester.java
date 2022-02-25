@@ -4,7 +4,7 @@ public class PhoneTester {
 
 	public static void main(String[] args) {
 		
-		phone pixel=new phone();
+		phoneTask pixel=new phoneTask();
 		pixel.make="Google";
 		pixel.model="Pixel 6";
 		pixel.numOfCams=2;

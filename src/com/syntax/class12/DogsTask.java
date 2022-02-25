@@ -1,6 +1,6 @@
 package com.syntax.class12;
 
-public class Dogs {
+public class DogsTask {
 	
 	String name;
 	String color;
@@ -19,7 +19,7 @@ public class Dogs {
 		 * with specific attributes and behaviors.
 		 */
 		
-		Dogs Dog1=new Dogs();
+		DogsTask Dog1=new DogsTask();
 		Dog1.name="Bear";
 		Dog1.color="White and Black";
 		Dog1.breed="Husky";
@@ -27,7 +27,7 @@ public class Dogs {
 		Dog1.age=6;
 		Dog1.weight=45;
 		
-		Dogs Dog2=new Dogs();
+		DogsTask Dog2=new DogsTask();
 		Dog2.name="Spike";
 		Dog2.color="Brown";
 		Dog2.breed="Bulldog";
@@ -35,7 +35,7 @@ public class Dogs {
 		Dog2.age=4;
 		Dog2.weight=54;
 		
-		Dogs Dog3=new Dogs();
+		DogsTask Dog3=new DogsTask();
 		Dog3.name="Pumpkin";
 		Dog3.color="Blonde";
 		Dog3.breed="Labrador";

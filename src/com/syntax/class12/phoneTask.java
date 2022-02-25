@@ -1,6 +1,6 @@
 package com.syntax.class12;
 
-public class phone {
+public class phoneTask {
 	String make;
 	String model;
 	int numOfCams;
@@ -26,7 +26,7 @@ public class phone {
 	public static void main(String[] args) {
 		//Create a Class “Phone”. Create 3 Objects of it: iPhone, Pixel, Nokia with specific attributes and behaviors.
 		
-		phone iPhone=new phone();
+		phoneTask iPhone=new phoneTask();
 		iPhone.make="Apple";
 		iPhone.model="iPhone 13";
 		iPhone.numOfCams=3;
@@ -37,7 +37,7 @@ public class phone {
 		iPhone.takePictures();
 		iPhone.printCompleteInfo();
 		
-		phone pixel=new phone();
+		phoneTask pixel=new phoneTask();
 		pixel.make="Google";
 		pixel.model="Pixel 6";
 		pixel.numOfCams=2;
@@ -45,7 +45,7 @@ public class phone {
 		pixel.screenSize=6.4;
 		pixel.os="Android 12";
 		
-		phone nokia=new phone();
+		phoneTask nokia=new phoneTask();
 		nokia.make="Nokia";
 		nokia.model="Nokia 5.4";
 		nokia.numOfCams=2;

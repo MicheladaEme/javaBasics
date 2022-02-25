@@ -1,5 +1,7 @@
 package com.syntax.class12;
 
+import java.util.Scanner;
+
 public class CalculatorTester {
 	
 	public static void main(String[] args) {
@@ -11,6 +13,7 @@ public class CalculatorTester {
 	int number1=50;
 	int number2=50;
 	simpleMathCalculator.addNumbers(number1,number2);
+	Scanner scanner=new Scanner(System.in);
 	
 	}
 }
