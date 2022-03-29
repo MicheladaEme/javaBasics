@@ -11,7 +11,7 @@ public class Task01ClassReview {
 		 * Create an array on int values using a scanner and calculate 
 		 * the sum of all stored elements in that array
 		 */
-		//Take the size of the Array using scanner calss from the user
+		//Take the size of the Array using scanner class from the user
 		//Create an int array of above size
 		//fill the array with elements from the user using scanner class
 		//sum all the elements of the array

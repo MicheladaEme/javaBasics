@@ -44,7 +44,29 @@ public class RePlit {
 		     }
 		     System.out.println();
 		   }
-		
-	}
-
+		//092
+		   String s1="hello how are you"; 
+		    s1.charAt(s1.length()-1);
+	
+	//104
+	Scanner scanner=new Scanner(System.in);
+	 // String[] array=new String[5];
+	String[] array=new String[5]; 
+	  for(int j=0; j<5; j++){
+	    array[j]=scanner.next();
+	  }
+	  for(int i=0; i<5; i++){
+	  System.out.println(array[i].substring(0,3));
+	  }
+	  
+	  //105
+	  String word = scanner.nextLine();
+	  word.toString().toLowerCase();
+	    for(int i=0; i<word.length(); i++){
+	      if(word.charAt(i)=='a' || word.charAt(i)=='e'|| word.charAt(i)=='i'|| 
+	       word.charAt(i)=='o'|| word.charAt(i)=='u'){
+	        System.out.print(word.charAt(i));
+	      }
+	    }
+  }
 }

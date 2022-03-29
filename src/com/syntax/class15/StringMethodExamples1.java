@@ -10,7 +10,7 @@ public class StringMethodExamples1 {
 		} else {
 			System.out.println("This much long name is not allowed");
 		}
-
+	
 	}
 
 }
